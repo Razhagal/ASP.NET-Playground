@@ -280,6 +280,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Battleships.Data\Battleships.Data.csproj">
+      <Project>{0881ef5d-7c4f-4015-9c8e-31b9ced8bdf4}</Project>
+      <Name>Battleships.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Battleships.Models\Battleships.Models.csproj">
+      <Project>{a07c8aaf-d438-487f-8cd8-29570d5fa6be}</Project>
+      <Name>Battleships.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

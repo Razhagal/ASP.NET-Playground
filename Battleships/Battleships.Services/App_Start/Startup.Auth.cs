@@ -10,8 +10,10 @@
     using Microsoft.Owin.Security.Google;
     using Microsoft.Owin.Security.OAuth;
     using Owin;
+
     using Battleships.Services.Providers;
     using Battleships.Services.Models;
+    using Battleships.Data;
 
 
     public partial class Startup

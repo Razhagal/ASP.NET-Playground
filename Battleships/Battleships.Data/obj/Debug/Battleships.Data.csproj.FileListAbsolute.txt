@@ -12,3 +12,5 @@ c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\obj\Debug\Battleships.Data.csprojResolveAssemblyReference.cache
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\obj\Debug\Battleships.Data.dll
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\obj\Debug\Battleships.Data.pdb
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\bin\Debug\Battleships.Models.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\bin\Debug\Battleships.Models.pdb
