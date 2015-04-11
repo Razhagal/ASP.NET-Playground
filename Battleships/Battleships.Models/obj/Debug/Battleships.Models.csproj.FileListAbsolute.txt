@@ -1,0 +1,14 @@
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Battleships.Models.dll.config
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Battleships.Models.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Battleships.Models.pdb
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\EntityFramework.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\EntityFramework.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.csprojResolveAssemblyReference.cache
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.pdb
