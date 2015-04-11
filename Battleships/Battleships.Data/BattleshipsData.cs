@@ -8,7 +8,7 @@
     using Battleships.Data.Repositories;
     using Battleships.Models;
 
-    public class BattleshipsData : IBattleshipData
+    public class BattleshipsData : IBattleshipsData
     {
         private DbContext context;
         private IDictionary<Type, object> repositories;
@@ -16,6 +16,7 @@
         public BattleshipsData(DbContext context)
         {
             this.context = context;
+            this.repositories = new Dictionary<Type, object>();
         }
 
         public GamesRepository Games

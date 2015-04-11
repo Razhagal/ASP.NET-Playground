@@ -1,0 +1,14 @@
+﻿namespace Battleships.Data
+{
+    using Battleships.Data.Repositories;
+    using Battleships.Models;
+
+    public interface IBattleshipsData
+    {
+        GamesRepository Games { get; }
+
+        IRepository<Ship> Ships { get; }
+
+        int SaveChanges();
+    }
+}

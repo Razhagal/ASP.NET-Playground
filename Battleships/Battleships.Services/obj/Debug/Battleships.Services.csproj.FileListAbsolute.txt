@@ -65,3 +65,17 @@ c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Servi
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Battleships.Models.dll
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Battleships.Data.pdb
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Battleships.Models.pdb
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Extensions.ContextPreservation.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Extensions.NamedScope.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.Common.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.Common.OwinHost.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.WebApi.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.WebApi.OwinHost.dll
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Extensions.ContextPreservation.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Extensions.NamedScope.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.Common.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.Common.OwinHost.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.WebApi.xml
+c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Services\bin\Ninject.Web.WebApi.OwinHost.xml
