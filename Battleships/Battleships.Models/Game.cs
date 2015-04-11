@@ -1,6 +1,8 @@
 ﻿namespace Battleships.Models
 {
     using System;
+    using System.Collections;
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
     public class Game
@@ -26,5 +28,7 @@
         public string PlayerTwoId { get; set; }
 
         public virtual User PlayerTwo { get; set; }
+
+        public virtual ICollection<Ship> Ships { get; set; }
     }
 }

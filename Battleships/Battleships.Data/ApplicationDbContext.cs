@@ -19,5 +19,9 @@
         {
             return new ApplicationDbContext();
         }
+
+        public IDbSet<Game> Games { get; set; }
+
+        public IDbSet<Ship> Ships { get; set; }
     }
 }
