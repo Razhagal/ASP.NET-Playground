@@ -9,7 +9,7 @@
     {
         public Game()
         {
-            this.Id = new Guid();
+            this.Id = Guid.NewGuid();
             this.Field = new string('O', 64);
             this.State = GameState.WaitingForPlayer;
         }

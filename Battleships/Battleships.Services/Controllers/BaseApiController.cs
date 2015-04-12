@@ -8,12 +8,18 @@
     {
         private IBattleshipsData data;
 
-        public BaseApiController(IBattleshipsData data)
+        protected BaseApiController()
+            : this(new BattleshipsData(new ApplicationDbContext()))
+        {
+
+        }
+
+        protected BaseApiController(IBattleshipsData data)
         {
             this.data = data;
         }
 
-        public IBattleshipsData Data
+        protected IBattleshipsData Data
         {
             get { return this.data; }
         }

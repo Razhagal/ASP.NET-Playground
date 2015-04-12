@@ -37,8 +37,9 @@ namespace Battleships.Services
 
         private void RegisterMapping(IKernel kernel)
         {
-            kernel.Bind<DbContext>().To<ApplicationDbContext>();
-            kernel.Bind<IBattleshipsData>().To<BattleshipsData>();
+            //kernel.Bind<DbContext>().To<ApplicationDbContext>();
+            kernel.Bind<IBattleshipsData>().To<BattleshipsData>()
+                .WithConstructorArgument("context", c => new ApplicationDbContext());
         }
     }
 }
