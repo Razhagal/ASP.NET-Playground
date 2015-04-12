@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Text;
     using System.Linq;
     using System.Web;
     using System.Web.Http;
@@ -84,6 +85,55 @@
             this.Data.SaveChanges();
 
             return this.Ok(game.Id);
+        }
+
+        [HttpPost]
+        [ActionName("play")]
+        public IHttpActionResult PlayTurn(PlayTurnBindingModel model)
+        {
+            if (model == null)
+            {
+                this.ModelState.AddModelError("model", "The model is empty");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return this.BadRequest(this.ModelState);
+            }
+
+            var gameIdGuid = new Guid(model.GameId);
+            var game = this.Data.Games
+                .All()
+                .Where(g => g.Id == gameIdGuid)
+                .FirstOrDefault();
+            if (game == null)
+            {
+                return this.NotFound();
+            }
+
+            var userId = this.User.Identity.GetUserId();
+            if (game.PlayerOneId != userId &&
+                game.PlayerTwoId != userId)
+            {
+                return this.BadRequest("You cannot take turn in this game.");
+            }
+
+            if ((game.PlayerOneId == userId && game.State == GameState.TurnTwo) ||
+                (game.PlayerTwoId == userId && game.State == GameState.TurnOne))
+            {
+                return this.BadRequest("It's not your turn!");
+            }
+
+            // TODO: add checks for valid positions - if outside the field and if already hitted
+
+            var fieldPosition = model.PositionX + model.PositionY * 8; //magical number
+            var field = new StringBuilder(game.Field);
+            field[fieldPosition] = 'X';
+            game.Field = field.ToString();
+            game.State = game.State == GameState.TurnOne ? GameState.TurnTwo : GameState.TurnOne;
+            this.Data.SaveChanges();
+
+            return this.Ok(game.Field);
         }
     }
 }
