@@ -23,7 +23,7 @@
 
         public virtual User Owner { get; set; }
 
-        public ICollection<User> Member
+        public ICollection<User> Members
         {
             get { return this.members; }
             set { this.members = value; }
