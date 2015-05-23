@@ -20,6 +20,24 @@
             return new TestLinkedInContext();
         }
 
+        public IDbSet<Certification> Certifications { get; set; }
+
+        public IDbSet<Discussion> Discussions { get; set; }
+
+        public IDbSet<Experience> Experiences { get; set; }
+
+        public IDbSet<Group> Groups { get; set; }
+
+        public IDbSet<UserLanguage> Languages { get; set; }
+
+        public IDbSet<Project> Projects { get; set; }
+
+        public IDbSet<Skill> Skills { get; set; }
+
+        public IDbSet<Endorcement> Endorcements { get; set; }
+
+        public IDbSet<AdministrationLog> AdministrationLogs { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Endorcement>()
