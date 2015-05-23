@@ -56,9 +56,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITestLinkedInContext.cs" />
+    <Compile Include="ITestLinkedInData.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="TestLinkedInContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestLinkedInData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
