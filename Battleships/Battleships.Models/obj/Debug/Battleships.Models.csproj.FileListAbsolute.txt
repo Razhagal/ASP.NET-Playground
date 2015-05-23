@@ -12,3 +12,17 @@ c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Model
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.csprojResolveAssemblyReference.cache
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.dll
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Models\obj\Debug\Battleships.Models.pdb
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Battleships.Models.dll.config
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Battleships.Models.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Battleships.Models.pdb
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\EntityFramework.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\EntityFramework.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\obj\Debug\Battleships.Models.csprojResolveAssemblyReference.cache
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\obj\Debug\Battleships.Models.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Models\obj\Debug\Battleships.Models.pdb

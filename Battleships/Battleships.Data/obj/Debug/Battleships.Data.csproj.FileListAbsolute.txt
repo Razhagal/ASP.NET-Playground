@@ -14,3 +14,19 @@ c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\obj\Debug\Battleships.Data.pdb
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\bin\Debug\Battleships.Models.dll
 c:\Users\Ico\Documents\Visual Studio 2013\Projects\Battleships\Battleships.Data\bin\Debug\Battleships.Models.pdb
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Battleships.Data.dll.config
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Battleships.Data.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Battleships.Data.pdb
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Battleships.Models.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\EntityFramework.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Battleships.Models.pdb
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\EntityFramework.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\obj\Debug\Battleships.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\obj\Debug\Battleships.Data.dll
+C:\Users\Ico\Documents\GitHub\ASP.NET-Playground\Battleships\Battleships.Data\obj\Debug\Battleships.Data.pdb
