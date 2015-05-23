@@ -49,8 +49,8 @@ namespace TestLinkedIn.Web.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "UserName")]
-        public string UserName { get; set; }
+        [Display(Name = "Username")]
+        public string Username { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,8 +64,8 @@ namespace TestLinkedIn.Web.Models
     public class RegisterViewModel
     {
         [Required]
-        [Display(Name = "UserName")]
-        public string UserName { get; set; }
+        [Display(Name = "Username")]
+        public string Username { get; set; }
 
         [Required]
         [EmailAddress]

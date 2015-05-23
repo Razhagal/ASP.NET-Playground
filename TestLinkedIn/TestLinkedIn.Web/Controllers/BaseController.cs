@@ -35,7 +35,7 @@
                 var username = requestContext.HttpContext.User.Identity.Name;
                 var user = this.Data.Users.All()
                     .FirstOrDefault(u => u.UserName == username);
-                this.userProfile = user;
+                this.UserProfile = user;
             }
             return base.BeginExecute(requestContext, callback, state);
         }
