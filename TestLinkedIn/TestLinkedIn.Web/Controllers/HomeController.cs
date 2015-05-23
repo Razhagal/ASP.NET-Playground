@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Web;
     using System.Web.Mvc;
+    using System.Web.Mvc.Expressions;
 
     using TestLinkedIn.Data;
 
@@ -22,9 +23,7 @@
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            return this.RedirectToAction(x => x.Contact());
         }
 
         public ActionResult Contact()

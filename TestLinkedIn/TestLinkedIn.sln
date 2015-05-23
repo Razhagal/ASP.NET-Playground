@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{96052354-1286-4E74-BA47-471041E39303}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{B0B0ABE0-BAB8-44E8-A8D9-74AFEDE336DC}"
+	ProjectSection(SolutionItems) = preProject
+		External Libraries\System.Web.Mvc.Expressions.dll = External Libraries\System.Web.Mvc.Expressions.dll
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedIn.Web", "TestLinkedIn.Web\TestLinkedIn.Web.csproj", "{D104330D-3410-44E8-B2CA-A00DA1247E2D}"
 EndProject
