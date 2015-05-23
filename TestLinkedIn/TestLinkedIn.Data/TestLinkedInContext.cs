@@ -4,16 +4,16 @@
 
     using TestLinkedIn.Models;
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class TestLinkedInContext : IdentityDbContext<User>
     {
-        public ApplicationDbContext()
+        public TestLinkedInContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
 
-        public static ApplicationDbContext Create()
+        public static TestLinkedInContext Create()
         {
-            return new ApplicationDbContext();
+            return new TestLinkedInContext();
         }
     }
 }
