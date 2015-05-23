@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedIn", "TestLinkedIn\TestLinkedIn.csproj", "{70DC5B91-1800-4ADB-BAD4-AF1AD1179BB3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EE99D65B-554B-4787-98C5-000CABD7211D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{02AB89E5-C929-49E5-8CFE-4055E9DCE05A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{96052354-1286-4E74-BA47-471041E39303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{B0B0ABE0-BAB8-44E8-A8D9-74AFEDE336DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedIn.Web", "TestLinkedIn.Web\TestLinkedIn.Web.csproj", "{D104330D-3410-44E8-B2CA-A00DA1247E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedIn.Data", "TestLinkedIn.Data\TestLinkedIn.Data.csproj", "{DCAE2684-617C-4573-B154-C691560551E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedIn.Models", "TestLinkedIn.Models\TestLinkedIn.Models.csproj", "{6C520979-AD27-4834-A0A2-30E6A89FA62B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +23,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70DC5B91-1800-4ADB-BAD4-AF1AD1179BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70DC5B91-1800-4ADB-BAD4-AF1AD1179BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70DC5B91-1800-4ADB-BAD4-AF1AD1179BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70DC5B91-1800-4ADB-BAD4-AF1AD1179BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D104330D-3410-44E8-B2CA-A00DA1247E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D104330D-3410-44E8-B2CA-A00DA1247E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D104330D-3410-44E8-B2CA-A00DA1247E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D104330D-3410-44E8-B2CA-A00DA1247E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAE2684-617C-4573-B154-C691560551E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAE2684-617C-4573-B154-C691560551E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAE2684-617C-4573-B154-C691560551E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAE2684-617C-4573-B154-C691560551E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C520979-AD27-4834-A0A2-30E6A89FA62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C520979-AD27-4834-A0A2-30E6A89FA62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C520979-AD27-4834-A0A2-30E6A89FA62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C520979-AD27-4834-A0A2-30E6A89FA62B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D104330D-3410-44E8-B2CA-A00DA1247E2D} = {96052354-1286-4E74-BA47-471041E39303}
+		{DCAE2684-617C-4573-B154-C691560551E2} = {EE99D65B-554B-4787-98C5-000CABD7211D}
+		{6C520979-AD27-4834-A0A2-30E6A89FA62B} = {EE99D65B-554B-4787-98C5-000CABD7211D}
 	EndGlobalSection
 EndGlobal
