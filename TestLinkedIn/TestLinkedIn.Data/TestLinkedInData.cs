@@ -6,7 +6,7 @@
     using TestLinkedIn.Data.Repositories;
     using TestLinkedIn.Models;
 
-    public class TestLinkedInData
+    public class TestLinkedInData : ITestLinkedInData
     {
         private ITestLinkedInContext context;
         private IDictionary<Type, object> repositories;

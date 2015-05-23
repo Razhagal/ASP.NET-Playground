@@ -7,7 +7,7 @@
     using Migrations;
     using TestLinkedIn.Models;
 
-    public class TestLinkedInContext : IdentityDbContext<User>
+    public class TestLinkedInContext : IdentityDbContext<User>, ITestLinkedInContext
     {
         public TestLinkedInContext()
             : base("TestLinkedInConnection", throwIfV1Schema: false)

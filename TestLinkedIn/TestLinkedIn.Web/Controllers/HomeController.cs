@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace TestLinkedIn.Web.Controllers
+﻿namespace TestLinkedIn.Web.Controllers
 {
-    public class HomeController : Controller
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web;
+    using System.Web.Mvc;
+
+    using TestLinkedIn.Data;
+
+    public class HomeController : BaseController
     {
+        public HomeController(ITestLinkedInData data)
+            : base(data)
+        {
+        }
+
         public ActionResult Index()
         {
             return View();
