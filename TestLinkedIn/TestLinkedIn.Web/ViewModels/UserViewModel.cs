@@ -23,7 +23,8 @@
                     Summary = x.Summary,
                     Certifications = x.Certifications
                         .AsQueryable()
-                        .Select(CertificationViewModel.ViewModel)
+                        .Select(CertificationViewModel.ViewModel),
+                    Skills = x.Skills.AsQueryable().Select(SkillViewModel.ViewModel)
                 };
             }
         }
@@ -41,6 +42,8 @@
         public ContactInfo ContactInfo { get; set; }
 
         public IEnumerable<CertificationViewModel> Certifications { get; set; }
+
+        public IEnumerable<SkillViewModel> Skills { get; set; }
 
         //public static object FromModel(User user)
         //{

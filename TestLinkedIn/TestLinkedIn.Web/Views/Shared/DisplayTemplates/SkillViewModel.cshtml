@@ -1,0 +1,21 @@
+﻿@model TestLinkedIn.Web.ViewModels.SkillViewModel
+
+<div>
+    <strong>@Model.Name</strong>
+    <span id="endorcements">
+        Count: @Model.EndorcementsCount
+        Endorcers: @Html.DisplayFor(e => e.Endorcers)
+    </span>
+
+    @using (Ajax.BeginForm("EndorceUserForSkill", "Users", new { id = Model.Id }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        LoadingElementId = "endorcements"
+    }))
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="submit" value="+" />
+    }
+</div>

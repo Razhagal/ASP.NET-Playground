@@ -2,6 +2,7 @@
 {
     using System.Linq;
     using System.Web.Mvc;
+    using System.Data.Entity;
 
     using TestLinkedIn.Data;
     using TestLinkedIn.Web.ViewModels;
@@ -16,12 +17,16 @@
 
         public ActionResult Index(string username)
         {
-            //var user = this.Data.Users
-            //    .All()
-            //    .FirstOrDefault(u => u.UserName == username);
+            //Include(u => u.Skills)
+            //.Include("Skills.Skill")
+            //.Include("Skills.Skills.User")
 
             var user = this.Data.Users
                 .All()
+                .Include(u => u.Certifications)
+                .Include(u => u.Skills)
+                .Include("Skills.Skill")
+                .Include("Skill.UserSkills.User")
                 .Where(u => u.UserName == username)
                 .Select(UserViewModel.ViewModel)
                 .FirstOrDefault();
@@ -30,8 +35,14 @@
                 return this.HttpNotFound("User not found");
             }
 
-            //var userViewModel = UserViewModel.FromModel(user);
             return this.View(user);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EndorceUserForSkill(int id)
+        {
+            return null;
         }
     }
 }
