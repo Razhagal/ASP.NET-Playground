@@ -18,16 +18,8 @@
 
         public ActionResult Index(string username)
         {
-            //Include(u => u.Skills)
-            //.Include("Skills.Skill")
-            //.Include("Skills.Skills.User")
-
             var user = this.Data.Users
                 .All()
-                .Include(u => u.Certifications)
-                .Include(u => u.Skills)
-                .Include("Skills.Skill")
-                .Include("Skill.UserSkills.User")
                 .Where(u => u.UserName == username)
                 .Select(UserViewModel.ViewModel)
                 .FirstOrDefault();
