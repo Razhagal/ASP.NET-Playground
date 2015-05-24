@@ -2,7 +2,7 @@
 
 <div>
     <strong>@Model.Name</strong>
-    <span id="endorcements">
+    <span id="endorcements-@Model.Id">
         Count: @Model.EndorcementsCount
         Endorcers: @Html.DisplayFor(e => e.Endorcers)
     </span>
@@ -11,7 +11,7 @@
     {
         HttpMethod = "POST",
         InsertionMode = InsertionMode.Replace,
-        LoadingElementId = "endorcements"
+        UpdateTargetId = string.Format("endorcements-{0}", Model.Id)
     }))
     {
         @Html.AntiForgeryToken()

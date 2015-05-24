@@ -5,6 +5,7 @@
     using System.Data.Entity;
 
     using TestLinkedIn.Data;
+    using TestLinkedIn.Models;
     using TestLinkedIn.Web.ViewModels;
 
     [Authorize]
@@ -42,7 +43,31 @@
         [ValidateAntiForgeryToken]
         public ActionResult EndorceUserForSkill(int id)
         {
-            return null;
+			// TODO: Check if trying to self endorse
+            var hasExistingEndorcement = this.Data.Endorcements
+                .All()
+                .Any(e => e.UserId == this.UserProfile.Id && e.UserSkillId == id);
+            if (!hasExistingEndorcement)
+            {
+                this.Data.Endorcements.Add(new Endorcement
+                {
+                    UserId = this.UserProfile.Id,
+                    UserSkillId = id
+                });
+
+                this.Data.SaveChanges();
+            }
+
+            var endorcements = this.Data.Endorcements
+                .All()
+                .Where(e => e.UserSkillId == id);
+            var endorcementsCount = endorcements.Count();
+            var endorcers = endorcements
+                .Select(e => e.User.UserName).ToList();
+
+            var joinnedEndorcers = string.Join(", ", endorcers);
+            var formattedContent = string.Format("Count: {0} Endorcers: {1}", endorcementsCount, joinnedEndorcers);
+            return this.Content(formattedContent);
         }
     }
 }
