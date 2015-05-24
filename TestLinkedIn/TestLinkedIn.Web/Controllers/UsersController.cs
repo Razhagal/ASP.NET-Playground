@@ -23,7 +23,7 @@
             var user = this.Data.Users
                 .All()
                 .Where(u => u.UserName == username)
-                .Select(UserViewModel.FromModel)
+                .Select(UserViewModel.ViewModel)
                 .FirstOrDefault();
             if (user == null)
             {

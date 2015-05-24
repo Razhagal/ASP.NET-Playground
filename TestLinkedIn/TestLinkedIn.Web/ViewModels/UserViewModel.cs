@@ -1,6 +1,7 @@
 ﻿namespace TestLinkedIn.Web.ViewModels
 {
     using System;
+    using System.Linq;
     using System.Collections.Generic;
     using System.Linq.Expressions;
 
@@ -19,7 +20,10 @@
                     FullName = x.FullName,
                     AvatarUrl = x.AvatarUrl,
                     ContactInfo = x.ContactInfo,
-                    Summary = x.Summary
+                    Summary = x.Summary,
+                    Certifications = x.Certifications
+                        .AsQueryable()
+                        .Select(CertificationViewModel.ViewModel)
                 };
             }
         }
@@ -38,17 +42,17 @@
 
         public IEnumerable<CertificationViewModel> Certifications { get; set; }
 
-        public static object FromModel(User user)
-        {
-            return new UserViewModel()
-            {
-                UserName = user.UserName,
-                Email = user.Email,
-                FullName = user.FullName,
-                AvatarUrl = user.AvatarUrl,
-                ContactInfo = user.ContactInfo,
-                Summary = user.Summary
-            };
-        }
+        //public static object FromModel(User user)
+        //{
+        //    return new UserViewModel()
+        //    {
+        //        UserName = user.UserName,
+        //        Email = user.Email,
+        //        FullName = user.FullName,
+        //        AvatarUrl = user.AvatarUrl,
+        //        ContactInfo = user.ContactInfo,
+        //        Summary = user.Summary
+        //    };
+        //}
     }
 }

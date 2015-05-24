@@ -1,9 +1,26 @@
 ﻿namespace TestLinkedIn.Web.ViewModels
 {
     using System;
+    using System.Linq.Expressions;
+
+    using TestLinkedIn.Models;
 
     public class CertificationViewModel
     {
+        public static Expression<Func<Certification, CertificationViewModel>> ViewModel
+        {
+            get
+            {
+                return x => new CertificationViewModel()
+                {
+                    Name = x.Name,
+                    Url = x.Url,
+                    TakenDate = x.TakenDate,
+                    ExpirationDate = x.ExpirationDate
+                };
+            }
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
